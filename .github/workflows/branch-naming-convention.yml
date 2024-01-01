@@ -1,0 +1,16 @@
+name: Check Branch Name
+
+on: [push, pull_request]
+
+jobs:
+  branch-name-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Verify Branch Name
+      run: |
+        if ! [[ $GITHUB_REF =~ ^refs/heads/(build|ci|docs|feat|fix|perf|refactor|test)/#([0-9]+)$ ]]; then
+          echo "Branch name does not follow convention (build|ci|docs|feat|fix|perf|refactor|test)/#<issue number>"
+          exit 1
+        fi
