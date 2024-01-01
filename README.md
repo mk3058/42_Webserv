@@ -47,7 +47,7 @@ HTTP Webserver를 구현하는 프로젝트
   │       │             │
   │       │             └─⫸ Summary in present tense. Not capitalized. No period at the end.
   │       │
-  │       └─⫸ Commit Scope: animations|bazel|benchpress|common|compiler|compiler-cli|core|
+  │       └─⫸ (optional) Commit Scope: animations|bazel|benchpress|common|compiler|compiler-cli|core|
   │                          elements|forms|http|language-service|localize|platform-browser|
   │                          platform-browser-dynamic|platform-server|router|service-worker|
   │                          upgrade|zone.js|packaging|changelog|docs-infra|migrations|
@@ -69,4 +69,4 @@ HTTP Webserver를 구현하는 프로젝트
 ### Contributor
    - jonim (@imjongmin123)
    - minkyuki (@mk3058)
-   - minseunk (@)
+   - minseunk (@minseunk42)
