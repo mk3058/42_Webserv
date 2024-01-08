@@ -15,4 +15,4 @@ jobs:
 
     - name: Check for Memory Leaks
       run: |
-        leaks --atExit -- ./webserv
+        leaks --atExit -- ./ircserv

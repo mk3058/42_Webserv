@@ -1,3 +1,3 @@
 int main() {
-    //webserv main
+    //ircserv main
 }
